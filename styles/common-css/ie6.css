@@ -1,0 +1,47 @@
+/* IE 6 specific css */
+
+.sf-menu {
+	margin: 0 15px;}
+#content_lid {
+    position: fixed;
+}
+.commentlist .commenttext .round-corner-t-l {
+    background:transparent url(../style1/images/round-corners.png) no-repeat scroll 0 0;
+    left:0;
+    top:0;
+}
+.commentlist .commenttext .round-corner-t-r {
+    background:transparent url(../style1/images/round-corners.png) no-repeat scroll 100% 0;
+    right:0;
+    top:0;
+}
+.commentlist .commenttext .round-corner-b-l {
+    background:transparent url(../style1/images/round-corners.png) no-repeat scroll 0 -8px;
+    left:0;
+    bottom:0;
+}
+.commentlist .commenttext .round-corner-b-r {
+    background:transparent url(../style1/images/round-corners.png) no-repeat scroll 100% -8px;
+    right:0;
+    bottom:0;
+}
+.commentlist .commenttext .round-corner-t-l,
+.commentlist .commenttext .round-corner-t-r,
+.commentlist .commenttext .round-corner-b-l,
+.commentlist .commenttext .round-corner-b-r {
+    height: 12px;
+    width: 12px;
+    position: absolute;
+}
+.entry {
+    padding: 9px 0 2px;
+}
+#categoryLinks {
+    margin: 7px 0 0 60px;
+}
+.thumbsWrapper {
+    padding: 7px 0;
+}
+.portfolioItemWrapper {
+    margin: 13px 20px;
+}

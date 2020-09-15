@@ -1,0 +1,74 @@
+/* IE 6 & 7 specific css */
+
+
+#slogan {
+    top:73px;
+}
+
+.dropdown {
+    line-height: 31px;
+}
+#sidebarSubnav h3 {
+    margin: 16px 0 0;
+    padding-bottom: 0;
+}
+#sidebarSubnav ul {
+    padding-top: 0;
+}
+#page_content h2,
+#post_content h2 {
+    margin-top: 5px;
+}
+#sidebarSubnav a {
+    padding: 3px 5px 5px 30px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 15px 0 -5px;
+    padding-bottom: 0;
+}
+#front_content_bkgnd_btm .special_title {
+    height: 55px;
+    margin: -5px 0 0;
+}
+#front_content_bkgnd_btm .cont_col_1_title,
+#front_content_bkgnd_btm .cont_col_2_title{
+    margin: 8px 0 0;
+    padding: 5px 0 0;
+}
+.textwidget {
+    padding: 10px 0;
+}
+.bottom_heading_m  {
+    background: transparent url(../common-images/bottom_heading_m.png) repeat-x scroll 50% 41px;
+}
+.bottom_heading_l {
+    background: transparent url(../common-images/bottom_heading_l.png) no-repeat scroll 0 41px;
+}
+.bottom_heading_r {
+    background: transparent url(../common-images/bottom_heading_r.png) no-repeat scroll 100% 41px;
+}
+#bottom_widgets h3 {
+    padding-bottom: 12px;
+    margin-top: 5px;
+}
+.thumbsWrapper {
+    padding: 6px 20px;
+}
+.entry {
+    padding: 5px 0 2px;
+}
+.postmetadata {
+    margin: 15px 0 20px !important;
+    padding: 5px 20px !important;
+}
+.comment {
+    padding-top: 0;
+}
+#categoryLinks {
+    margin: 10px 0 0 40px;
+}
+.portfolioItemWrapper {
+    margin: 10px 20px;
+}
+
+

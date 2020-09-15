@@ -1,0 +1,33 @@
+<!doctype html><meta charset="utf-8">
+<head>
+<script>
+var gSiteConfig=["data_page2.png",'page2.png.ver',11,2];//настройка загрузчика
+//это диспетчер асинхронной загрузки. инопланетная технология :)
+for(var i=0;i<gSiteConfig[3];i++){window['load_async_'+i]=0;}   
+function end_async(){var i; console.log('---------------');v=gSiteConfig[3];//gMaxAsync
+ for(i=0;i<v;i++){if(window['load_async_'+i]) console.log('загружена=load_async_'+i);}
+ for(i=0;i<v;i++){if(!window['load_async_'+i])return -1;}
+ console.log('все части приехали');
+ for(i=0;i<v;i++)if(window['run_async_'+i])window['run_async_'+i]();}
+</script>
+<script async src="min.js" ></script>
+<script async src="loader.min.js" ></script> 
+
+</head>
+
+<body >
+<div style="text-align:center;">
+ <h2>LOADING..<br> ЖДЕМ <span id="id_msg">..</span></h2>
+ <button onclick="msg4()"><h3>жми сюда если надоело ждать</h3></button>
+</div>
+
+<noscript><h1>ENABLE JAVASCRIPT (ВКЛЮЧИТЕ СКРИПТ)</h1></noscript>
+
+<script>
+ function random(n){return Math.round(Math.random()*n-0.5);}
+ var v=['ЗАГРУЗКИ','ЧУДА','У МОРЯ ПОГОДЫ','ПОКА РОДИТ','КОНЦА СВЕТА'][random(5)]
+ document.getElementById('id_msg').innerText=v;
+ function msg4(){var v=['дешево быстро не бывает!','обещаного три года ждут','кругом враги'][random(3)];alert(v);}
+</script>
+
+</body>
